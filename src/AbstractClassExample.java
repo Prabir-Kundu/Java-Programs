@@ -47,5 +47,6 @@ public class AbstractClassExample {
 
         siameseCat.displaySpecies();
         siameseCat.makeSound();
+
     }
 }
