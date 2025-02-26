@@ -10,7 +10,6 @@ public interface Find_Second_Largest_Element {
         if(arr == null || arr.length < 2){
             return;
         }
-
         int largest = -1;
         int secondLargest = -1;
         for(int i = 0; i < arr.length; i++){
