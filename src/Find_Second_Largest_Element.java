@@ -1,6 +1,6 @@
 //TODO: Find the second largest element in an array.
 
-public interface Find_Second_Largest_Element {
+public class Find_Second_Largest_Element {
     public static void main(String args[]){
         int[] arr = {12,50,71,11,24,27,100};
         findSecondLargestElement(arr);
