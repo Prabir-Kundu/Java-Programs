@@ -35,3 +35,23 @@ public class ArrayIntersection {
         System.out.println("Intersection of the two arrays: " + intersection);
     }
 }
+
+/* TODO: Using built-in method
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayIntersection {
+    public static void main(String[] args) {
+        Integer[] arr1 = {1, 2, 3, 4, 5};
+        Integer[] arr2 = {3, 4, 5, 6, 7};
+
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(arr1));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(arr2));
+
+        list1.retainAll(list2); // Keep only common elements
+
+        System.out.println("Intersection: " + list1);
+    }
+}
+*/
